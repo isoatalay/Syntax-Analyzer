@@ -75,17 +75,16 @@ verdict line per statement.
 
 6  Example
 ----------
-Input (`example.txt`):
-int x; x = 5 + 3; if (x > 2) { x = x - 1; } return x;
+Input (`example.txt`): int x; x = 5 + 3; if (x > 2) { x = x - 1; } return x;
 
-
-Command:
-
-java syntaxanalyzer.SyntaxAnalyzer example.txt result.txt
+Command: java syntaxanalyzer.SyntaxAnalyzer example.txt result.txt
 
 
 Output (`result.txt`):
-Statement 1: Valid Variable declaration Statement 2: Valid Assignment Statement Statement 3: Valid If Statement Statement 4: Valid Return Statement
+Statement 1: Valid Variable declaration 
+Statement 2: Valid Assignment Statement 
+Statement 3: Valid If Statement 
+Statement 4: Valid Return Statement
 
 
 7  Error Handling
